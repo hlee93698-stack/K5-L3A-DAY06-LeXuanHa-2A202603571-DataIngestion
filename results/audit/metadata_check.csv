@@ -1,0 +1,55 @@
+strategy,question,rank,chunk_id,document_id,source,page,page_end,legal_regime,document_type,article,auto_source_file_exists,auto_text_on_stated_pages,auto_regime_matches_manifest,question_filter,filter_respected
+A,t01,1,fixed500o50:luat19_2023:p46:o87407:5b880c93ca,luat19_2023,data/raw/luat19_2023.pdf,46,46,2023,luat,64,True,True,True,"{""legal_regime"": ""2023""}",True
+A,t01,2,fixed500o50:luat19_2023:p46:o87857:4f75313eb8,luat19_2023,data/raw/luat19_2023.pdf,46,46,2023,luat,64,True,True,True,"{""legal_regime"": ""2023""}",True
+A,t01,3,fixed500o50:luat19_2023:p45:o86797:5d58f88fa3,luat19_2023,data/raw/luat19_2023.pdf,45,45,2023,luat,63,True,True,True,"{""legal_regime"": ""2023""}",True
+A,t02,1,fixed500o50:luat19_2023:p25:o49074:160bbd0e7c,luat19_2023,data/raw/luat19_2023.pdf,25,25,2023,luat,33,True,True,True,"{""legal_regime"": ""2010""}",False
+A,t02,2,fixed500o50:nd55_2024:p11:o20378:3881b4763d,nd55_2024,data/raw/nd55_2024.pdf,11,11,2023,nghi_dinh,18,True,True,True,"{""legal_regime"": ""2010""}",False
+A,t02,3,fixed500o50:nd55_2024:p11:o19928:6024ceed9b,nd55_2024,data/raw/nd55_2024.pdf,11,11,2023,nghi_dinh,17,True,True,True,"{""legal_regime"": ""2010""}",False
+A,t03,1,fixed500o50:luat19_2023:p48:o92007:403eacfcfa,luat19_2023,data/raw/luat19_2023.pdf,48,48,2023,luat,71,True,True,True,,
+A,t03,2,fixed500o50:luat19_2023:p48:o91557:31d0456a4f,luat19_2023,data/raw/luat19_2023.pdf,48,48,2023,luat,71,True,True,True,,
+A,t03,3,fixed500o50:luat19_2023:p40:o77054:cb3a9d9b8c,luat19_2023,data/raw/luat19_2023.pdf,40,40,2023,luat,50,True,True,True,,
+A,t04,1,fixed500o50:nd55_2024:p15:o27850:2c980b80cf,nd55_2024,data/raw/nd55_2024.pdf,15,15,2023,nghi_dinh,22,True,True,True,,
+A,t04,2,fixed500o50:nd55_2024:p16:o29837:72ceebfa93,nd55_2024,data/raw/nd55_2024.pdf,16,16,2023,nghi_dinh,23,True,True,True,,
+A,t04,3,fixed500o50:luat19_2023:p11:o20617:b9829b3df5,luat19_2023,data/raw/luat19_2023.pdf,11,11,2023,luat,10,True,True,True,,
+A,t05,1,fixed500o50:nd99_2011:p10:o20273:7f7b13329e,nd99_2011,data/raw/nd99_2011.pdf,10,10,2010,nghi_dinh,22,True,True,True,,
+A,t05,2,fixed500o50:nd99_2011:p10:o19823:11701a6835,nd99_2011,data/raw/nd99_2011.pdf,10,10,2010,nghi_dinh,22,True,True,True,,
+A,t05,3,fixed500o50:nd55_2024:p10:o18585:974b28ae8f,nd55_2024,data/raw/nd55_2024.pdf,10,10,2023,nghi_dinh,16,True,True,True,,
+A,t06,1,fixed500o50:luat59_2010:p10:o20066:d0186805f8,luat59_2010,data/raw/luat59_2010.pdf,10,10,2010,luat,21,True,True,True,,
+A,t06,2,fixed500o50:luat19_2023:p23:o44893:6dbb235c0b,luat19_2023,data/raw/luat19_2023.pdf,23,23,2023,luat,30,True,True,True,,
+A,t06,3,fixed500o50:luat19_2023:p23:o44443:97f6635985,luat19_2023,data/raw/luat19_2023.pdf,23,23,2023,luat,30,True,True,True,,
+B,t01,1,struct1000:luat19_2023:p46:o87407:a734a81d41,luat19_2023,data/raw/luat19_2023.pdf,46,46,2023,luat,64,True,True,True,"{""legal_regime"": ""2023""}",True
+B,t01,2,struct1000:luat19_2023:p45:o86700:780a5f6dc9,luat19_2023,data/raw/luat19_2023.pdf,45,45,2023,luat,63,True,True,True,"{""legal_regime"": ""2023""}",True
+B,t01,3,struct1000:luat19_2023:p46:o88049:b8fc1828dd,luat19_2023,data/raw/luat19_2023.pdf,46,46,2023,luat,64,True,True,True,"{""legal_regime"": ""2023""}",True
+B,t02,1,struct1000:nd55_2024:p11:o20147:1edbaf96d0,nd55_2024,data/raw/nd55_2024.pdf,11,11,2023,nghi_dinh,18,True,True,True,"{""legal_regime"": ""2010""}",False
+B,t02,2,struct1000:luat59_2010:p11:o20713:5dcc945667,luat59_2010,data/raw/luat59_2010.pdf,11,11,2010,luat,22,True,True,True,"{""legal_regime"": ""2010""}",True
+B,t02,3,struct1000:nd55_2024:p11:o20828:6bd2515141,nd55_2024,data/raw/nd55_2024.pdf,11,12,2023,nghi_dinh,18,True,True,True,"{""legal_regime"": ""2010""}",False
+B,t03,1,struct1000:luat19_2023:p48:o91525:df6fcf7de1,luat19_2023,data/raw/luat19_2023.pdf,48,48,2023,luat,71,True,True,True,,
+B,t03,2,struct1000:luat19_2023:p40:o77136:14e8c73743,luat19_2023,data/raw/luat19_2023.pdf,40,40,2023,luat,50,True,True,True,,
+B,t03,3,struct1000:nd99_2011:p11:o23052:276160613a,nd99_2011,data/raw/nd99_2011.pdf,11,11,2010,nghi_dinh,25,True,True,True,,
+B,t04,1,struct1000:nd55_2024:p15:o28119:fd491db37d,nd55_2024,data/raw/nd55_2024.pdf,15,15,2023,nghi_dinh,23,True,True,True,,
+B,t04,2,struct1000:luat19_2023:p31:o61053:8d0a648bcd,luat19_2023,data/raw/luat19_2023.pdf,31,32,2023,luat,39,True,True,True,,
+B,t04,3,struct1000:luat19_2023:p32:o62812:ad7002ed3f,luat19_2023,data/raw/luat19_2023.pdf,32,32,2023,luat,39,True,True,True,,
+B,t05,1,struct1000:nd99_2011:p10:o19823:86f6e9534d,nd99_2011,data/raw/nd99_2011.pdf,10,10,2010,nghi_dinh,22,True,True,True,,
+B,t05,2,struct1000:luat59_2010:p12:o24132:83fccebb68,luat59_2010,data/raw/luat59_2010.pdf,12,13,2010,luat,26,True,True,True,,
+B,t05,3,struct1000:nd99_2011:p9:o18244:7a5cc2ba37,nd99_2011,data/raw/nd99_2011.pdf,9,9,2010,nghi_dinh,20,True,True,True,,
+B,t06,1,struct1000:luat59_2010:p10:o19730:b0d3056cc8,luat59_2010,data/raw/luat59_2010.pdf,10,10,2010,luat,21,True,True,True,,
+B,t06,2,struct1000:luat19_2023:p23:o44830:caf2bc912f,luat19_2023,data/raw/luat19_2023.pdf,23,23,2023,luat,30,True,True,True,,
+B,t06,3,struct1000:luat19_2023:p23:o43993:718ebcc363,luat19_2023,data/raw/luat19_2023.pdf,23,23,2023,luat,30,True,True,True,,
+C,t01,1,struct1000:luat19_2023:p46:o87407:a734a81d41,luat19_2023,data/raw/luat19_2023.pdf,46,46,2023,luat,64,True,True,True,"{""legal_regime"": ""2023""}",True
+C,t01,2,struct1000:luat19_2023:p45:o86700:780a5f6dc9,luat19_2023,data/raw/luat19_2023.pdf,45,45,2023,luat,63,True,True,True,"{""legal_regime"": ""2023""}",True
+C,t01,3,struct1000:luat19_2023:p46:o88049:b8fc1828dd,luat19_2023,data/raw/luat19_2023.pdf,46,46,2023,luat,64,True,True,True,"{""legal_regime"": ""2023""}",True
+C,t02,1,struct1000:luat59_2010:p11:o20713:5dcc945667,luat59_2010,data/raw/luat59_2010.pdf,11,11,2010,luat,22,True,True,True,"{""legal_regime"": ""2010""}",True
+C,t02,2,struct1000:luat59_2010:p11:o21551:4652bf1c96,luat59_2010,data/raw/luat59_2010.pdf,11,11,2010,luat,22,True,True,True,"{""legal_regime"": ""2010""}",True
+C,t02,3,struct1000:luat59_2010:p12:o23098:d7ebcf0af8,luat59_2010,data/raw/luat59_2010.pdf,12,12,2010,luat,24,True,True,True,"{""legal_regime"": ""2010""}",True
+C,t03,1,struct1000:luat19_2023:p48:o91525:df6fcf7de1,luat19_2023,data/raw/luat19_2023.pdf,48,48,2023,luat,71,True,True,True,,
+C,t03,2,struct1000:luat19_2023:p40:o77136:14e8c73743,luat19_2023,data/raw/luat19_2023.pdf,40,40,2023,luat,50,True,True,True,,
+C,t03,3,struct1000:nd99_2011:p11:o23052:276160613a,nd99_2011,data/raw/nd99_2011.pdf,11,11,2010,nghi_dinh,25,True,True,True,,
+C,t04,1,struct1000:nd55_2024:p15:o28119:fd491db37d,nd55_2024,data/raw/nd55_2024.pdf,15,15,2023,nghi_dinh,23,True,True,True,,
+C,t04,2,struct1000:luat19_2023:p31:o61053:8d0a648bcd,luat19_2023,data/raw/luat19_2023.pdf,31,32,2023,luat,39,True,True,True,,
+C,t04,3,struct1000:luat19_2023:p32:o62812:ad7002ed3f,luat19_2023,data/raw/luat19_2023.pdf,32,32,2023,luat,39,True,True,True,,
+C,t05,1,struct1000:nd99_2011:p10:o19823:86f6e9534d,nd99_2011,data/raw/nd99_2011.pdf,10,10,2010,nghi_dinh,22,True,True,True,,
+C,t05,2,struct1000:luat59_2010:p12:o24132:83fccebb68,luat59_2010,data/raw/luat59_2010.pdf,12,13,2010,luat,26,True,True,True,,
+C,t05,3,struct1000:nd99_2011:p9:o18244:7a5cc2ba37,nd99_2011,data/raw/nd99_2011.pdf,9,9,2010,nghi_dinh,20,True,True,True,,
+C,t06,1,struct1000:luat59_2010:p10:o19730:b0d3056cc8,luat59_2010,data/raw/luat59_2010.pdf,10,10,2010,luat,21,True,True,True,,
+C,t06,2,struct1000:luat19_2023:p23:o44830:caf2bc912f,luat19_2023,data/raw/luat19_2023.pdf,23,23,2023,luat,30,True,True,True,,
+C,t06,3,struct1000:luat19_2023:p23:o43993:718ebcc363,luat19_2023,data/raw/luat19_2023.pdf,23,23,2023,luat,30,True,True,True,,

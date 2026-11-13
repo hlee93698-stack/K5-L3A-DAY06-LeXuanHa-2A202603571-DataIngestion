@@ -1,0 +1,36 @@
+{
+  "ingested_at": "2026-11-13T18:03:33+07:00",
+  "python": "3.11.2",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "chromadb": "1.5.9",
+    "sentence-transformers": "6.3.0",
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cpu",
+    "pypdf": "6.21.4"
+  },
+  "embedding": {
+    "provider": "local (Sentence Transformers, CPU)",
+    "model": "intfloat/multilingual-e5-base",
+    "revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+    "dimensions": 768,
+    "max_seq_length": 512,
+    "query_prefix": "query: ",
+    "passage_prefix": "passage: ",
+    "normalize_embeddings": true,
+    "model_load_seconds": 22.94
+  },
+  "vector_store": {
+    "name": "Chroma PersistentClient",
+    "path": "starter\\chroma_db",
+    "collections": [
+      "lab06_A",
+      "lab06_B",
+      "lab06_C"
+    ],
+    "distance": "cosine (hnsw:space=cosine)",
+    "search": "approximate (HNSW)"
+  },
+  "chunking_seconds_total": 0.019,
+  "cost_usd": 0.0
+}

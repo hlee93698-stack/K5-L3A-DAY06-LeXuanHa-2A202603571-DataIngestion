@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size trong từng trang (ký tự),500,50,"document_id, source, page, page_end, legal_regime, document_type, year, document_number, chapter, article(đầu chunk)",không,intfloat/multilingual-e5-base (768d; passage:/query:) + Chroma cosine,"Baseline: cửa sổ cố định cắt ngang khoản/điểm nên dễ tách evidence và mất chủ thể; kỳ vọng Hit@3 thấp hơn B",9/18,15/18,3/6,3/6,"516 chunk; 0 chunk vượt 512 token; 1 câu test tách evidence qua 2 chunk (t05); embed+store 105 s"
+B,"cấu trúc Điều → khoản → điểm → câu, header [văn bản · Chương · Điều], có thể qua trang",1000 (tối đa),0,giống A (article = điều của chunk),không,giống A,"Giữ trọn khoản/điều + header ngữ cảnh sẽ tăng Hit@1/Hit@3 và coherence so với A (A–B chỉ đổi chunking)",15/18,18/18,5/6,6/6,"340 chunk; 64 chunk qua 2 trang; embed+store 100 s; lỗi còn lại chủ yếu là nhầm chế độ pháp lý (d16, t02)"
+C,giống hệt B (copy cùng chunk + vector),1000 (tối đa),0,giống B,"legal_regime = 2010|2023, chỉ áp dụng khi câu hỏi có filter (6/24 câu)",giống A,"Filter theo chế độ pháp lý loại bỏ điều tương tự của văn bản khác chế độ; chỉ khác B ở filter (B–C)",16/18,18/18,6/6,6/6,"Được chọn bằng quy tắc dev (Hit@3 → Hit@1 → ít chunk); filter tuân thủ 4/4 dev, 2/2 test; copy collection 0,9 s"

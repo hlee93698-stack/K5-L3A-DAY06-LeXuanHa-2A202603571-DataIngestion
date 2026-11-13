@@ -1,0 +1,71 @@
+{
+  "labeller": "Lê Xuân Hạ. Người chấm đồng thời là người xây pipeline nên có nguy cơ thiên lệch.",
+  "strategies": {
+    "A": {
+      "coherence": {
+        "n": 10,
+        "mean": 0.7,
+        "counts": {
+          "0": 3,
+          "1": 7,
+          "2": 0
+        }
+      },
+      "grounding": {
+        "n": 6,
+        "mean": 1.17,
+        "counts": {
+          "0": 1,
+          "1": 3,
+          "2": 2
+        }
+      },
+      "metadata_complete_and_correct": "18/18",
+      "filter_compliance": "1/2"
+    },
+    "B": {
+      "coherence": {
+        "n": 10,
+        "mean": 1.8,
+        "counts": {
+          "0": 0,
+          "1": 2,
+          "2": 8
+        }
+      },
+      "grounding": {
+        "n": 6,
+        "mean": 2.0,
+        "counts": {
+          "0": 0,
+          "1": 0,
+          "2": 6
+        }
+      },
+      "metadata_complete_and_correct": "18/18",
+      "filter_compliance": "1/2"
+    },
+    "C": {
+      "coherence": {
+        "n": 10,
+        "mean": 1.8,
+        "counts": {
+          "0": 0,
+          "1": 2,
+          "2": 8
+        }
+      },
+      "grounding": {
+        "n": 6,
+        "mean": 2.0,
+        "counts": {
+          "0": 0,
+          "1": 0,
+          "2": 6
+        }
+      },
+      "metadata_complete_and_correct": "18/18",
+      "filter_compliance": "2/2"
+    }
+  }
+}

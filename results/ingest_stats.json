@@ -1,0 +1,115 @@
+{
+  "A": {
+    "config": {
+      "chunking": "fixed_size",
+      "chunk_size": 500,
+      "overlap": 50,
+      "use_filter": false,
+      "description": "Cửa sổ cố định 500 ký tự, overlap 50, trong phạm vi từng trang; metadata đầy đủ; không lọc."
+    },
+    "chunks": 516,
+    "collection_count": 516,
+    "chunks_per_document": {
+      "luat59_2010": 90,
+      "nd99_2011": 77,
+      "luat19_2023": 255,
+      "nd55_2024": 94
+    },
+    "chars": {
+      "min": 60,
+      "p25": 500.0,
+      "median": 500.0,
+      "p75": 500.0,
+      "max": 500,
+      "mean": 448.8
+    },
+    "total_chars": 231567,
+    "tokens_with_prefix": {
+      "min": 17,
+      "p25": 120.0,
+      "median": 125.0,
+      "p75": 130.0,
+      "max": 165,
+      "mean": 115.8
+    },
+    "total_tokens": 59767,
+    "chunks_over_max_seq_len": 0,
+    "chunks_spanning_pages": 0,
+    "embed_and_store_seconds": 0.52
+  },
+  "B": {
+    "config": {
+      "chunking": "structure",
+      "max_size": 1000,
+      "use_filter": false,
+      "description": "Theo cấu trúc Điều → khoản (gộp khoản tới 1000 ký tự, tách khoản quá dài theo điểm/câu), mỗi chunk có tiêu đề ngữ cảnh [văn bản · Chương · Điều]; metadata đầy đủ; không lọc."
+    },
+    "chunks": 340,
+    "collection_count": 340,
+    "chunks_per_document": {
+      "luat59_2010": 69,
+      "nd99_2011": 52,
+      "luat19_2023": 162,
+      "nd55_2024": 57
+    },
+    "chars": {
+      "min": 106,
+      "p25": 485.5,
+      "median": 714.0,
+      "p75": 860.0,
+      "max": 999,
+      "mean": 664.1
+    },
+    "total_chars": 225795,
+    "tokens_with_prefix": {
+      "min": 36,
+      "p25": 129.5,
+      "median": 184.5,
+      "p75": 224.0,
+      "max": 289,
+      "mean": 175.0
+    },
+    "total_tokens": 59512,
+    "chunks_over_max_seq_len": 0,
+    "chunks_spanning_pages": 64,
+    "embed_and_store_seconds": 0.12
+  },
+  "C": {
+    "chunks": 340,
+    "collection_count": 340,
+    "chunks_per_document": {
+      "luat59_2010": 69,
+      "nd99_2011": 52,
+      "luat19_2023": 162,
+      "nd55_2024": 57
+    },
+    "chars": {
+      "min": 106,
+      "p25": 485.5,
+      "median": 714.0,
+      "p75": 860.0,
+      "max": 999,
+      "mean": 664.1
+    },
+    "total_chars": 225795,
+    "tokens_with_prefix": {
+      "min": 36,
+      "p25": 129.5,
+      "median": 184.5,
+      "p75": 224.0,
+      "max": 289,
+      "mean": 175.0
+    },
+    "total_tokens": 59512,
+    "chunks_over_max_seq_len": 0,
+    "chunks_spanning_pages": 64,
+    "config": {
+      "chunking": "structure",
+      "max_size": 1000,
+      "use_filter": true,
+      "description": "Giống hệt B (cùng chunk, cùng vector); thêm lọc metadata `legal_regime` chỉ khi câu hỏi có filter."
+    },
+    "embed_and_store_seconds": 0.18,
+    "note": "C dùng lại đúng chunk và vector của B (copy collection, không embed lại)."
+  }
+}

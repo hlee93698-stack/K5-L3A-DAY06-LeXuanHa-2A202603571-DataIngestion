@@ -1,0 +1,28 @@
+{
+  "selected_at": "2026-11-13T18:03:47+07:00",
+  "rule": "max dev Hit@3, then max dev Hit@1, then fewer chunks, then name",
+  "ranking": [
+    "C",
+    "B",
+    "A"
+  ],
+  "selected": "C",
+  "dev": {
+    "C": {
+      "hit1": "16/18",
+      "hit3": "18/18",
+      "chunks": 340
+    },
+    "B": {
+      "hit1": "15/18",
+      "hit3": "18/18",
+      "chunks": 340
+    },
+    "A": {
+      "hit1": "9/18",
+      "hit3": "15/18",
+      "chunks": 516
+    }
+  },
+  "test_seen_before_selection": false
+}

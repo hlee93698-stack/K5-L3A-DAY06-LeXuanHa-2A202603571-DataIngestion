@@ -1,0 +1,138 @@
+{
+  "first_pass": {
+    "A:luat59_2010": {
+      "existing_before": 90,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 90,
+      "after": 90
+    },
+    "A:nd99_2011": {
+      "existing_before": 77,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 77,
+      "after": 77
+    },
+    "A:luat19_2023": {
+      "existing_before": 255,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 255,
+      "after": 255
+    },
+    "A:nd55_2024": {
+      "existing_before": 94,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 94,
+      "after": 94
+    },
+    "B:luat59_2010": {
+      "existing_before": 69,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 69,
+      "after": 69
+    },
+    "B:nd99_2011": {
+      "existing_before": 52,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 52,
+      "after": 52
+    },
+    "B:luat19_2023": {
+      "existing_before": 162,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 162,
+      "after": 162
+    },
+    "B:nd55_2024": {
+      "existing_before": 57,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 57,
+      "after": 57
+    },
+    "C<-B": {
+      "existing_before": 340,
+      "added": 0,
+      "deleted": 0,
+      "after": 340
+    }
+  },
+  "second_pass": {
+    "A:luat59_2010": {
+      "existing_before": 90,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 90,
+      "after": 90
+    },
+    "A:nd99_2011": {
+      "existing_before": 77,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 77,
+      "after": 77
+    },
+    "A:luat19_2023": {
+      "existing_before": 255,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 255,
+      "after": 255
+    },
+    "A:nd55_2024": {
+      "existing_before": 94,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 94,
+      "after": 94
+    },
+    "B:luat59_2010": {
+      "existing_before": 69,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 69,
+      "after": 69
+    },
+    "B:nd99_2011": {
+      "existing_before": 52,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 52,
+      "after": 52
+    },
+    "B:luat19_2023": {
+      "existing_before": 162,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 162,
+      "after": 162
+    },
+    "B:nd55_2024": {
+      "existing_before": 57,
+      "added": 0,
+      "deleted": 0,
+      "unchanged": 57,
+      "after": 57
+    },
+    "C<-B": {
+      "existing_before": 340,
+      "added": 0,
+      "deleted": 0,
+      "after": 340
+    }
+  },
+  "second_pass_added_total": 0,
+  "second_pass_deleted_total": 0,
+  "counts_after": {
+    "A": 516,
+    "B": 340,
+    "C": 340
+  },
+  "no_duplicates": true
+}

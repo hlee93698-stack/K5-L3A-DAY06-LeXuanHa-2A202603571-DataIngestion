@@ -1,0 +1,932 @@
+{
+ "labeller": "Lê Xuân Hạ. Người chấm đồng thời là người xây pipeline nên có nguy cơ thiên lệch.",
+ "scales": {
+  "coherence": "0 = bị cắt giữa ý/thiếu chủ thể không hiểu; 1 = hiểu một phần; 2 = tự hiểu, trọn ý",
+  "grounding": "0 = không có bằng chứng; 1 = có nhưng thiếu điều kiện/phải ghép; 2 = đủ trả lời và truy nguồn",
+  "metadata_ok": "document_id, source, page/page_end, legal_regime, document_type đúng so với nguồn"
+ },
+ "coherence": [
+  {
+   "position": "P01",
+   "strategy": "A",
+   "document_id": "luat59_2010",
+   "page": 6,
+   "chunk_id": "fixed500o50:luat59_2010:p6:o10902:cb538575b6",
+   "label": 1,
+   "reason": "Bắt đầu giữa từ ('h chất'), mất chủ thể khoản 1 ('Cá nhân vi phạm…'); khoản 2 trọn ý; cuối bị cắt giữa câu khoản 3."
+  },
+  {
+   "position": "P01",
+   "strategy": "B",
+   "document_id": "luat59_2010",
+   "page": 6,
+   "chunk_id": "struct1000:luat59_2010:p6:o10752:30f784c6d8",
+   "label": 2,
+   "reason": "Trọn Điều 11 kèm tiêu đề ngữ cảnh."
+  },
+  {
+   "position": "P01",
+   "strategy": "C",
+   "document_id": "luat59_2010",
+   "page": 6,
+   "chunk_id": "struct1000:luat59_2010:p6:o10752:30f784c6d8",
+   "label": 2,
+   "reason": "Trọn Điều 11 kèm tiêu đề ngữ cảnh."
+  },
+  {
+   "position": "P02",
+   "strategy": "A",
+   "document_id": "luat59_2010",
+   "page": 17,
+   "chunk_id": "fixed500o50:luat59_2010:p17:o31471:9239c84acb",
+   "label": 1,
+   "reason": "Bắt đầu giữa từ; liệt kê điều kiện a)–c) nhưng mất phần dẫn của Điều 41; cuối dính sang đầu Điều 42 rồi bị cắt."
+  },
+  {
+   "position": "P02",
+   "strategy": "B",
+   "document_id": "luat59_2010",
+   "page": 17,
+   "chunk_id": "struct1000:luat59_2010:p17:o31825:062819eb89",
+   "label": 2,
+   "reason": "Trọn Điều 42."
+  },
+  {
+   "position": "P02",
+   "strategy": "C",
+   "document_id": "luat59_2010",
+   "page": 17,
+   "chunk_id": "struct1000:luat59_2010:p17:o31825:062819eb89",
+   "label": 2,
+   "reason": "Trọn Điều 42."
+  },
+  {
+   "position": "P03",
+   "strategy": "A",
+   "document_id": "nd99_2011",
+   "page": 8,
+   "chunk_id": "fixed500o50:nd99_2011:p8:o16172:0ba82f8649",
+   "label": 1,
+   "reason": "Bắt đầu giữa điểm a) ('kỳ khoản tiền nào'); không biết đây là nghĩa vụ trong hợp đồng cung cấp dịch vụ liên tục; điểm c) bị cắt."
+  },
+  {
+   "position": "P03",
+   "strategy": "B",
+   "document_id": "nd99_2011",
+   "page": 8,
+   "chunk_id": "struct1000:nd99_2011:p8:o16023:6e1c7339d4",
+   "label": 2,
+   "reason": "Trọn khoản 4 Điều 18 có câu dẫn 'Tổ chức, cá nhân cung cấp dịch vụ có nghĩa vụ sau'; header cho biết nguồn (thiếu tên điều nhưng vẫn tự hiểu)."
+  },
+  {
+   "position": "P03",
+   "strategy": "C",
+   "document_id": "nd99_2011",
+   "page": 8,
+   "chunk_id": "struct1000:nd99_2011:p8:o16023:6e1c7339d4",
+   "label": 2,
+   "reason": "Trọn khoản 4 Điều 18 có câu dẫn 'Tổ chức, cá nhân cung cấp dịch vụ có nghĩa vụ sau'; header cho biết nguồn (thiếu tên điều nhưng vẫn tự hiểu)."
+  },
+  {
+   "position": "P04",
+   "strategy": "A",
+   "document_id": "luat19_2023",
+   "page": 4,
+   "chunk_id": "fixed500o50:luat19_2023:p4:o6659:539111e028",
+   "label": 1,
+   "reason": "Bắt đầu giữa từ, mất tiêu đề Điều 5 và khoản 1; khoản 2–3 vẫn hiểu là nghĩa vụ khi tiêu dùng; cuối khoản 4 bị cắt."
+  },
+  {
+   "position": "P04",
+   "strategy": "B",
+   "document_id": "luat19_2023",
+   "page": 4,
+   "chunk_id": "struct1000:luat19_2023:p4:o6461:f03d97d096",
+   "label": 2,
+   "reason": "Tiêu đề Điều 5 + khoản 1–3 trọn ý; khoản 4 nằm ở chunk kế tiếp (cắt đúng ranh giới khoản)."
+  },
+  {
+   "position": "P04",
+   "strategy": "C",
+   "document_id": "luat19_2023",
+   "page": 4,
+   "chunk_id": "struct1000:luat19_2023:p4:o6461:f03d97d096",
+   "label": 2,
+   "reason": "Tiêu đề Điều 5 + khoản 1–3 trọn ý; khoản 4 nằm ở chunk kế tiếp (cắt đúng ranh giới khoản)."
+  },
+  {
+   "position": "P05",
+   "strategy": "A",
+   "document_id": "luat19_2023",
+   "page": 15,
+   "chunk_id": "fixed500o50:luat19_2023:p15:o29268:77235c797d",
+   "label": 1,
+   "reason": "Có trọn tiêu đề và khoản 1 Điều 19 nhưng đầu là đuôi Điều 18 (lẫn ý), cuối khoản 2 bị cắt."
+  },
+  {
+   "position": "P05",
+   "strategy": "B",
+   "document_id": "luat19_2023",
+   "page": 15,
+   "chunk_id": "struct1000:luat19_2023:p15:o29326:a75a8ec566",
+   "label": 2,
+   "reason": "Trọn Điều 19."
+  },
+  {
+   "position": "P05",
+   "strategy": "C",
+   "document_id": "luat19_2023",
+   "page": 15,
+   "chunk_id": "struct1000:luat19_2023:p15:o29326:a75a8ec566",
+   "label": 2,
+   "reason": "Trọn Điều 19."
+  },
+  {
+   "position": "P06",
+   "strategy": "A",
+   "document_id": "luat19_2023",
+   "page": 26,
+   "chunk_id": "fixed500o50:luat19_2023:p26:o51106:785e6fcc05",
+   "label": 0,
+   "reason": "Danh sách c)–e) mất câu dẫn 'tổ chức, cá nhân có trách nhiệm bồi thường… bao gồm'; đọc riêng không biết danh sách này về việc gì."
+  },
+  {
+   "position": "P06",
+   "strategy": "B",
+   "document_id": "luat19_2023",
+   "page": 26,
+   "chunk_id": "struct1000:luat19_2023:p26:o50875:9afc4580d9",
+   "label": 1,
+   "reason": "Khoản 2–3 Điều 34 trọn câu, nhưng 'thiệt hại quy định tại khoản 1' (do sản phẩm khuyết tật) nằm ở chunk khác; header không có tên điều."
+  },
+  {
+   "position": "P06",
+   "strategy": "C",
+   "document_id": "luat19_2023",
+   "page": 26,
+   "chunk_id": "struct1000:luat19_2023:p26:o50875:9afc4580d9",
+   "label": 1,
+   "reason": "Khoản 2–3 Điều 34 trọn câu, nhưng 'thiệt hại quy định tại khoản 1' (do sản phẩm khuyết tật) nằm ở chunk khác; header không có tên điều."
+  },
+  {
+   "position": "P07",
+   "strategy": "A",
+   "document_id": "luat19_2023",
+   "page": 37,
+   "chunk_id": "fixed500o50:luat19_2023:p37:o72189:87525a70d1",
+   "label": 0,
+   "reason": "Danh sách trách nhiệm b)–đ) không có câu dẫn (bán hàng không tại địa điểm giao dịch thường xuyên > 10 triệu đồng); thiếu chủ thể, không hiểu được."
+  },
+  {
+   "position": "P07",
+   "strategy": "B",
+   "document_id": "luat19_2023",
+   "page": 37,
+   "chunk_id": "struct1000:luat19_2023:p37:o71564:af4f5c3c2a",
+   "label": 2,
+   "reason": "Khoản 1 Điều 47 có câu dẫn và điểm a)–c) trọn ý; các điểm d)–đ) sang chunk sau (cắt đúng ranh giới điểm)."
+  },
+  {
+   "position": "P07",
+   "strategy": "C",
+   "document_id": "luat19_2023",
+   "page": 37,
+   "chunk_id": "struct1000:luat19_2023:p37:o71564:af4f5c3c2a",
+   "label": 2,
+   "reason": "Khoản 1 Điều 47 có câu dẫn và điểm a)–c) trọn ý; các điểm d)–đ) sang chunk sau (cắt đúng ranh giới điểm)."
+  },
+  {
+   "position": "P08",
+   "strategy": "A",
+   "document_id": "luat19_2023",
+   "page": 48,
+   "chunk_id": "fixed500o50:luat19_2023:p48:o91557:31d0456a4f",
+   "label": 1,
+   "reason": "Tiêu đề Điều 71 bị cắt đầu nhưng khoản 1–2 trọn ý; khoản 3 (lợi ích công cộng) bị cắt ngay đầu."
+  },
+  {
+   "position": "P08",
+   "strategy": "B",
+   "document_id": "luat19_2023",
+   "page": 48,
+   "chunk_id": "struct1000:luat19_2023:p48:o91525:df6fcf7de1",
+   "label": 2,
+   "reason": "Trọn Điều 71."
+  },
+  {
+   "position": "P08",
+   "strategy": "C",
+   "document_id": "luat19_2023",
+   "page": 48,
+   "chunk_id": "struct1000:luat19_2023:p48:o91525:df6fcf7de1",
+   "label": 2,
+   "reason": "Trọn Điều 71."
+  },
+  {
+   "position": "P09",
+   "strategy": "A",
+   "document_id": "nd55_2024",
+   "page": 5,
+   "chunk_id": "fixed500o50:nd55_2024:p5:o7547:b2696e855b",
+   "label": 1,
+   "reason": "Câu dẫn và khoản 1–3 trọn ý (dù mất tiêu đề Điều 6); khoản 4 bị cắt giữa từ."
+  },
+  {
+   "position": "P09",
+   "strategy": "B",
+   "document_id": "nd55_2024",
+   "page": 5,
+   "chunk_id": "struct1000:nd55_2024:p5:o7340:ba31885e80",
+   "label": 2,
+   "reason": "Tiêu đề chương + trọn Điều 6."
+  },
+  {
+   "position": "P09",
+   "strategy": "C",
+   "document_id": "nd55_2024",
+   "page": 5,
+   "chunk_id": "struct1000:nd55_2024:p5:o7340:ba31885e80",
+   "label": 2,
+   "reason": "Tiêu đề chương + trọn Điều 6."
+  },
+  {
+   "position": "P10",
+   "strategy": "A",
+   "document_id": "nd55_2024",
+   "page": 16,
+   "chunk_id": "fixed500o50:nd55_2024:p16:o29837:72ceebfa93",
+   "label": 0,
+   "reason": "Các điểm g)–i) của nghĩa vụ báo cáo, mất câu dẫn (nền tảng số lớn phải duy trì tài khoản báo cáo…) và bắt đầu giữa điểm e)."
+  },
+  {
+   "position": "P10",
+   "strategy": "B",
+   "document_id": "nd55_2024",
+   "page": 16,
+   "chunk_id": "struct1000:nd55_2024:p16:o29561:def91fa1d2",
+   "label": 1,
+   "reason": "Các điểm đ)–i) trọn câu và header chỉ ra Điều 23 NĐ 55, nhưng câu dẫn khoản 2 (nghĩa vụ báo cáo) ở chunk trước."
+  },
+  {
+   "position": "P10",
+   "strategy": "C",
+   "document_id": "nd55_2024",
+   "page": 16,
+   "chunk_id": "struct1000:nd55_2024:p16:o29561:def91fa1d2",
+   "label": 1,
+   "reason": "Các điểm đ)–i) trọn câu và header chỉ ra Điều 23 NĐ 55, nhưng câu dẫn khoản 2 (nghĩa vụ báo cáo) ở chunk trước."
+  }
+ ],
+ "grounding": [
+  {
+   "strategy": "A",
+   "question": "t01",
+   "label": 1,
+   "reason": "Bằng chứng bị cắt giữa từ ở #1 ('người tiêu d…') và phần còn lại ở #2; phải ghép 2 chunk mới đủ ý."
+  },
+  {
+   "strategy": "A",
+   "question": "t02",
+   "label": 0,
+   "reason": "Cả top-3 đều thuộc chế độ 2023 (Luật 19/2023 Điều 33, NĐ 55); không có quy định Luật 2010 được hỏi, nội dung 2023 khác (báo in/điện tử, trung ương và địa phương) dễ gây trả lời sai."
+  },
+  {
+   "strategy": "A",
+   "question": "t03",
+   "label": 2,
+   "reason": "#1 chứa nguyên khoản 3 Điều 71: không phải nộp tạm ứng án phí, không phải chịu án phí."
+  },
+  {
+   "strategy": "A",
+   "question": "t04",
+   "label": 1,
+   "reason": "#1 có câu chính (công bố tiêu chí ưu tiên hiển thị) nhưng bị cắt trước phần 'nội dung thu phí/được tài trợ phải công khai'; metadata article=22 vì chunk bắt đầu ở Điều 22."
+  },
+  {
+   "strategy": "A",
+   "question": "t05",
+   "label": 1,
+   "reason": "Hai mảnh bằng chứng nằm ở 2 chunk (#1 phần gia hạn, #2 thời hạn 15 ngày bị cắt cuối); đủ nếu ghép lại nhưng không chunk nào tự đủ."
+  },
+  {
+   "strategy": "A",
+   "question": "t06",
+   "label": 2,
+   "reason": "#1 (Luật 2010: từ ba lần) và #2 (Luật 2023: từ 03 lần) đều đủ, truy được nguồn/trang."
+  },
+  {
+   "strategy": "B",
+   "question": "t01",
+   "label": 2,
+   "reason": "#1 là trọn khoản 2 Điều 64 Luật 2023 gồm điểm c) cần thiết."
+  },
+  {
+   "strategy": "B",
+   "question": "t02",
+   "label": 2,
+   "reason": "#2 là Điều 22 Luật 2010 có đủ '05 số liên tiếp trên báo ngày hoặc 05 ngày liên tiếp trên đài… tại địa phương'; #1 và #3 là NĐ 55 (chế độ 2023) gây nhiễu nhưng header nêu rõ văn bản nên vẫn phân biệt được."
+  },
+  {
+   "strategy": "B",
+   "question": "t03",
+   "label": 2,
+   "reason": "#1 trọn Điều 71 gồm khoản 3."
+  },
+  {
+   "strategy": "B",
+   "question": "t04",
+   "label": 2,
+   "reason": "#1 trọn khoản 1 Điều 23 NĐ 55, gồm cả quy định về nội dung thu phí/được tài trợ."
+  },
+  {
+   "strategy": "B",
+   "question": "t05",
+   "label": 2,
+   "reason": "#1 trọn khoản 2 Điều 22 NĐ 99: 15 ngày làm việc, gia hạn không quá 15 ngày làm việc."
+  },
+  {
+   "strategy": "B",
+   "question": "t06",
+   "label": 2,
+   "reason": "#1 (Luật 2010) và #2 (Luật 2023) đều chứa điều kiện 'từ ba/03 lần trở lên'."
+  },
+  {
+   "strategy": "C",
+   "question": "t01",
+   "label": 2,
+   "reason": "#1 là trọn khoản 2 Điều 64 Luật 2023 gồm điểm c) cần thiết."
+  },
+  {
+   "strategy": "C",
+   "question": "t02",
+   "label": 2,
+   "reason": "Có filter legal_regime=2010: cả top-3 thuộc Luật 2010; #1 là Điều 22 với đầy đủ hình thức thông báo; không còn nhiễu từ NĐ 55."
+  },
+  {
+   "strategy": "C",
+   "question": "t03",
+   "label": 2,
+   "reason": "#1 trọn Điều 71 gồm khoản 3."
+  },
+  {
+   "strategy": "C",
+   "question": "t04",
+   "label": 2,
+   "reason": "#1 trọn khoản 1 Điều 23 NĐ 55, gồm cả quy định về nội dung thu phí/được tài trợ."
+  },
+  {
+   "strategy": "C",
+   "question": "t05",
+   "label": 2,
+   "reason": "#1 trọn khoản 2 Điều 22 NĐ 99: 15 ngày làm việc, gia hạn không quá 15 ngày làm việc."
+  },
+  {
+   "strategy": "C",
+   "question": "t06",
+   "label": 2,
+   "reason": "#1 (Luật 2010) và #2 (Luật 2023) đều chứa điều kiện 'từ ba/03 lần trở lên'."
+  }
+ ],
+ "metadata": [
+  {
+   "strategy": "A",
+   "question": "t01",
+   "rank": 1,
+   "chunk_id": "fixed500o50:luat19_2023:p46:o87407:5b880c93ca",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t01",
+   "rank": 2,
+   "chunk_id": "fixed500o50:luat19_2023:p46:o87857:4f75313eb8",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t01",
+   "rank": 3,
+   "chunk_id": "fixed500o50:luat19_2023:p45:o86797:5d58f88fa3",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t02",
+   "rank": 1,
+   "chunk_id": "fixed500o50:luat19_2023:p25:o49074:160bbd0e7c",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t02",
+   "rank": 2,
+   "chunk_id": "fixed500o50:nd55_2024:p11:o20378:3881b4763d",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t02",
+   "rank": 3,
+   "chunk_id": "fixed500o50:nd55_2024:p11:o19928:6024ceed9b",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": false,
+   "note": "Trường phụ `article` chỉ ghi điều ở đầu chunk; chunk này chứa cả tiêu đề điều kế tiếp (không tính vào trường bắt buộc)."
+  },
+  {
+   "strategy": "A",
+   "question": "t03",
+   "rank": 1,
+   "chunk_id": "fixed500o50:luat19_2023:p48:o92007:403eacfcfa",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": "Trường phụ `article` chỉ ghi điều ở đầu chunk; chunk này chứa cả tiêu đề điều kế tiếp (không tính vào trường bắt buộc)."
+  },
+  {
+   "strategy": "A",
+   "question": "t03",
+   "rank": 2,
+   "chunk_id": "fixed500o50:luat19_2023:p48:o91557:31d0456a4f",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t03",
+   "rank": 3,
+   "chunk_id": "fixed500o50:luat19_2023:p40:o77054:cb3a9d9b8c",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t04",
+   "rank": 1,
+   "chunk_id": "fixed500o50:nd55_2024:p15:o27850:2c980b80cf",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": "Trường phụ `article` chỉ ghi điều ở đầu chunk; chunk này chứa cả tiêu đề điều kế tiếp (không tính vào trường bắt buộc)."
+  },
+  {
+   "strategy": "A",
+   "question": "t04",
+   "rank": 2,
+   "chunk_id": "fixed500o50:nd55_2024:p16:o29837:72ceebfa93",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t04",
+   "rank": 3,
+   "chunk_id": "fixed500o50:luat19_2023:p11:o20617:b9829b3df5",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t05",
+   "rank": 1,
+   "chunk_id": "fixed500o50:nd99_2011:p10:o20273:7f7b13329e",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t05",
+   "rank": 2,
+   "chunk_id": "fixed500o50:nd99_2011:p10:o19823:11701a6835",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t05",
+   "rank": 3,
+   "chunk_id": "fixed500o50:nd55_2024:p10:o18585:974b28ae8f",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t06",
+   "rank": 1,
+   "chunk_id": "fixed500o50:luat59_2010:p10:o20066:d0186805f8",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t06",
+   "rank": 2,
+   "chunk_id": "fixed500o50:luat19_2023:p23:o44893:6dbb235c0b",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "A",
+   "question": "t06",
+   "rank": 3,
+   "chunk_id": "fixed500o50:luat19_2023:p23:o44443:97f6635985",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t01",
+   "rank": 1,
+   "chunk_id": "struct1000:luat19_2023:p46:o87407:a734a81d41",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t01",
+   "rank": 2,
+   "chunk_id": "struct1000:luat19_2023:p45:o86700:780a5f6dc9",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t01",
+   "rank": 3,
+   "chunk_id": "struct1000:luat19_2023:p46:o88049:b8fc1828dd",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t02",
+   "rank": 1,
+   "chunk_id": "struct1000:nd55_2024:p11:o20147:1edbaf96d0",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t02",
+   "rank": 2,
+   "chunk_id": "struct1000:luat59_2010:p11:o20713:5dcc945667",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t02",
+   "rank": 3,
+   "chunk_id": "struct1000:nd55_2024:p11:o20828:6bd2515141",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t03",
+   "rank": 1,
+   "chunk_id": "struct1000:luat19_2023:p48:o91525:df6fcf7de1",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t03",
+   "rank": 2,
+   "chunk_id": "struct1000:luat19_2023:p40:o77136:14e8c73743",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t03",
+   "rank": 3,
+   "chunk_id": "struct1000:nd99_2011:p11:o23052:276160613a",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t04",
+   "rank": 1,
+   "chunk_id": "struct1000:nd55_2024:p15:o28119:fd491db37d",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t04",
+   "rank": 2,
+   "chunk_id": "struct1000:luat19_2023:p31:o61053:8d0a648bcd",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t04",
+   "rank": 3,
+   "chunk_id": "struct1000:luat19_2023:p32:o62812:ad7002ed3f",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t05",
+   "rank": 1,
+   "chunk_id": "struct1000:nd99_2011:p10:o19823:86f6e9534d",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t05",
+   "rank": 2,
+   "chunk_id": "struct1000:luat59_2010:p12:o24132:83fccebb68",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t05",
+   "rank": 3,
+   "chunk_id": "struct1000:nd99_2011:p9:o18244:7a5cc2ba37",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t06",
+   "rank": 1,
+   "chunk_id": "struct1000:luat59_2010:p10:o19730:b0d3056cc8",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t06",
+   "rank": 2,
+   "chunk_id": "struct1000:luat19_2023:p23:o44830:caf2bc912f",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "B",
+   "question": "t06",
+   "rank": 3,
+   "chunk_id": "struct1000:luat19_2023:p23:o43993:718ebcc363",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t01",
+   "rank": 1,
+   "chunk_id": "struct1000:luat19_2023:p46:o87407:a734a81d41",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t01",
+   "rank": 2,
+   "chunk_id": "struct1000:luat19_2023:p45:o86700:780a5f6dc9",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t01",
+   "rank": 3,
+   "chunk_id": "struct1000:luat19_2023:p46:o88049:b8fc1828dd",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t02",
+   "rank": 1,
+   "chunk_id": "struct1000:luat59_2010:p11:o20713:5dcc945667",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t02",
+   "rank": 2,
+   "chunk_id": "struct1000:luat59_2010:p11:o21551:4652bf1c96",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t02",
+   "rank": 3,
+   "chunk_id": "struct1000:luat59_2010:p12:o23098:d7ebcf0af8",
+   "ok": true,
+   "filter_required": true,
+   "filter_respected": true,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t03",
+   "rank": 1,
+   "chunk_id": "struct1000:luat19_2023:p48:o91525:df6fcf7de1",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t03",
+   "rank": 2,
+   "chunk_id": "struct1000:luat19_2023:p40:o77136:14e8c73743",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t03",
+   "rank": 3,
+   "chunk_id": "struct1000:nd99_2011:p11:o23052:276160613a",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t04",
+   "rank": 1,
+   "chunk_id": "struct1000:nd55_2024:p15:o28119:fd491db37d",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t04",
+   "rank": 2,
+   "chunk_id": "struct1000:luat19_2023:p31:o61053:8d0a648bcd",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t04",
+   "rank": 3,
+   "chunk_id": "struct1000:luat19_2023:p32:o62812:ad7002ed3f",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t05",
+   "rank": 1,
+   "chunk_id": "struct1000:nd99_2011:p10:o19823:86f6e9534d",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t05",
+   "rank": 2,
+   "chunk_id": "struct1000:luat59_2010:p12:o24132:83fccebb68",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t05",
+   "rank": 3,
+   "chunk_id": "struct1000:nd99_2011:p9:o18244:7a5cc2ba37",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t06",
+   "rank": 1,
+   "chunk_id": "struct1000:luat59_2010:p10:o19730:b0d3056cc8",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t06",
+   "rank": 2,
+   "chunk_id": "struct1000:luat19_2023:p23:o44830:caf2bc912f",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  },
+  {
+   "strategy": "C",
+   "question": "t06",
+   "rank": 3,
+   "chunk_id": "struct1000:luat19_2023:p23:o43993:718ebcc363",
+   "ok": true,
+   "filter_required": false,
+   "filter_respected": false,
+   "note": ""
+  }
+ ]
+}
